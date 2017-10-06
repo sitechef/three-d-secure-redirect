@@ -1,0 +1,17 @@
+<html>
+<style>
+  body {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+</style>
+  <body>
+    <h2>3D Secure Validation is complete</h2>
+    <h4>This window should close automatically...</h4>
+  </body>
+  <script>
+    window.parent.postMessage('3dSecureDone', '*');
+  </script>
+</html>
